@@ -1,0 +1,63 @@
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./ourProject.css);
+@import url(./news.css);
+@import url(./support.css);
+@import url(./footer.css);
+@import url(./partners.css);
+
+
+@font-face {
+  font-family: 'e-Ukraine-bold';
+  src: url('./fonts/e-ukraine-bold-webfont.woff2'),
+    url('./fonts/e-ukraine-bold-webfont.woff');
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+}
+@font-face {
+  font-family: 'e-Ukraine';
+  src: url('./fonts/e-ukraine-regular-webfont.woff'),
+    url('./fonts/e-ukraine-regular-webfont.woff2');
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'e-Ukraine-bold', sans-serif;
+}
+.wrapper-color {
+  background: radial-gradient(142.09% 325.18% at -3.72% -21.48%, #334250 5.49%, #111A22 89.93%);
+  border-radius: 0px 0px 16px 16px;
+  background-repeat: no-repeat;
+  border-radius: 0px 0px 16px 16px;
+}
+
+.wrapper {
+  min-height: 100%;
+  padding-top: 20px;
+}
+[class*="__container"] {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 30px;
+}
+.title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  font-family:'e-Ukraine-bold', sans-serif;
+}
+button {
+  border: none;
+  outline: none;
+}
+

@@ -1,0 +1,31 @@
+.partners__container {
+  margin-top: 92px;
+  padding-bottom: 97px;
+}
+.partners__title {
+  padding-top: 92px;
+}
+.slider__partners {
+  padding-top: 50px;
+}
+
+.slider__partners .slick-dots {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  margin-top: 35px;
+}
+.slider__partners .slick-dots li {
+  list-style: none;
+  position: relative;
+}
+.slider__partners .slick-dots button {
+  font-size: 0;
+  width: 218.33px;
+  height: 4px;
+  background-color:#D1D9E0;
+  margin: 0 10px;
+}
+.slider__partners .slick-dots li.slick-active button {
+  background-color:#1B242D;
+}
